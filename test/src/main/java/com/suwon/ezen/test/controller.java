@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/test/*")
 public class controller {
-
+    // 서버 연결 코드 작성
     @GetMapping("/hello")
     public void hello(){
         System.out.println("hello intel.");
