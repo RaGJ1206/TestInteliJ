@@ -18,5 +18,10 @@ public class controller {
         System.out.println("hello world!");
     }
 
+    @GetMapping("/a")
+    public void a(){
+        System.out.println("show A");
+    }
+
 
 }
