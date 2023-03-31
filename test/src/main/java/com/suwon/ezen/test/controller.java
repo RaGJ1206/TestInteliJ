@@ -13,4 +13,10 @@ public class controller {
         System.out.println("hello intel.");
     }
 
+    @GetMapping("/world")
+    public void world(){
+        System.out.println("hello world!");
+    }
+
+
 }
